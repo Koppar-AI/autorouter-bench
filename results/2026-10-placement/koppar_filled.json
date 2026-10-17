@@ -1,0 +1,181 @@
+{
+  "tool": "koppar_filled",
+  "capS": 1200,
+  "boards": [
+    {
+      "board": "pic-programmer",
+      "layers": 2,
+      "ratsnest": 125,
+      "seconds": 5.5,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 5.3,
+      "completeAtS": 5.3,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 6,
+      "trackMm": 1523.371,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 1
+    },
+    {
+      "board": "rp2040-minimal",
+      "layers": 2,
+      "ratsnest": 150,
+      "seconds": 6.2,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 6.1,
+      "completeAtS": 6.1,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 83,
+      "trackMm": 1219.571,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 36
+    },
+    {
+      "board": "pico-vga",
+      "layers": 4,
+      "ratsnest": 180,
+      "seconds": 5.5,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 5.3,
+      "completeAtS": 5.3,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 92,
+      "trackMm": 1107.477,
+      "drc": {
+        "errors": 5,
+        "errorsByType": {
+          "invalid_outline": 3,
+          "copper_edge_clearance": 2
+        },
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 75
+    },
+    {
+      "board": "cm5io",
+      "layers": 4,
+      "ratsnest": 431,
+      "seconds": 752.2,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 723.6,
+      "completeAtS": 723.6,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 831,
+      "trackMm": 12307.536,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 96
+    },
+    {
+      "board": "rk3328-som-evb",
+      "layers": 4,
+      "ratsnest": 462,
+      "seconds": 21.7,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 21.5,
+      "completeAtS": 21.5,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 333,
+      "trackMm": 4864.384,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 151
+    },
+    {
+      "board": "scalenode-cm4",
+      "layers": 4,
+      "ratsnest": 446,
+      "seconds": 428.7,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 404.4,
+      "completeAtS": 404.4,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 459,
+      "trackMm": 5109.404,
+      "drc": {
+        "errors": 24,
+        "errorsByType": {
+          "solder_mask_bridge": 2,
+          "courtyards_overlap": 4,
+          "pth_inside_courtyard": 12,
+          "shorting_items": 5,
+          "clearance": 1
+        },
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 126
+    },
+    {
+      "board": "stmp157-som-evb",
+      "layers": 4,
+      "ratsnest": 905,
+      "seconds": 109.2,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 108.6,
+      "completeAtS": 108.6,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 1100,
+      "trackMm": 14450.516,
+      "drc": {
+        "errors": 14,
+        "errorsByType": {
+          "solder_mask_bridge": 4,
+          "hole_clearance": 6,
+          "shorting_items": 4
+        },
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 341
+    },
+    {
+      "board": "imx8mp-som-evb",
+      "layers": 4,
+      "ratsnest": 997,
+      "seconds": 222.5,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 148.6,
+      "completeAtS": 148.6,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 1116,
+      "trackMm": 14431.817,
+      "drc": {
+        "errors": 1,
+        "errorsByType": {
+          "clearance": 1
+        },
+        "unconnectedItems": 0
+      },
+      "viasInPinPads": 379
+    }
+  ]
+}

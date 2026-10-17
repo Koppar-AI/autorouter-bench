@@ -1,0 +1,508 @@
+{
+  "tool": "koppar",
+  "capS": 1200,
+  "boards": [
+    {
+      "board": "si-test-board",
+      "layers": 4,
+      "ratsnest": 107,
+      "seconds": 8.1,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 3.8,
+      "completeAtS": 3.8,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 113,
+      "trackMm": 449.306,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "ecp5-bga381-ft2232",
+      "layers": 4,
+      "ratsnest": 144,
+      "seconds": 20.9,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 16.3,
+      "completeAtS": 16.3,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 151,
+      "trackMm": 1273.385,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "ender3-loadcell",
+      "layers": 2,
+      "ratsnest": 157,
+      "seconds": 226.1,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 223.7,
+      "completeAtS": 223.7,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 71,
+      "trackMm": 1027.014,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "trellis-core",
+      "layers": 4,
+      "ratsnest": 204,
+      "seconds": 16.8,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 11.4,
+      "completeAtS": 11.4,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 164,
+      "trackMm": 897.685,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "argos-demo",
+      "layers": 4,
+      "ratsnest": 230,
+      "seconds": 18.7,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 10.9,
+      "completeAtS": 10.9,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 70,
+      "trackMm": 1460.806,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "gmsl-serializer",
+      "layers": 4,
+      "ratsnest": 252,
+      "seconds": 1100.8,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 1097.5,
+      "completeAtS": 1097.5,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 98,
+      "trackMm": 1278.95,
+      "drc": {
+        "errors": 2,
+        "errorsByType": {
+          "courtyards_overlap": 2
+        },
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "xerxes",
+      "layers": 6,
+      "ratsnest": 544,
+      "seconds": 1100.6,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 1087.3,
+      "completeAtS": null,
+      "completionPct": 99.63,
+      "unconnected": 2,
+      "vias": 179,
+      "trackMm": 3671.43,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 2
+      }
+    },
+    {
+      "board": "bitaxe-ultra",
+      "layers": 4,
+      "ratsnest": 289,
+      "seconds": 531.9,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 454.4,
+      "completeAtS": 454.4,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 215,
+      "trackMm": 2181.358,
+      "drc": {
+        "errors": 3,
+        "errorsByType": {
+          "footprint_type_mismatch": 3
+        },
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "tiliqua-motherboard",
+      "layers": 6,
+      "ratsnest": 510,
+      "seconds": 1115.7,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 295.1,
+      "completeAtS": null,
+      "completionPct": 82.55,
+      "unconnected": 89,
+      "vias": 358,
+      "trackMm": 3595.627,
+      "drc": {
+        "errors": 27,
+        "errorsByType": {
+          "solder_mask_bridge": 13,
+          "courtyards_overlap": 14
+        },
+        "unconnectedItems": 89
+      }
+    },
+    {
+      "board": "kintex-pcie",
+      "layers": 8,
+      "ratsnest": 706,
+      "seconds": 1124.3,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 959.4,
+      "completeAtS": null,
+      "completionPct": 72.66,
+      "unconnected": 193,
+      "vias": 427,
+      "trackMm": 3032.146,
+      "drc": {
+        "errors": 64,
+        "errorsByType": {
+          "copper_edge_clearance": 14,
+          "malformed_courtyard": 18,
+          "hole_clearance": 20,
+          "clearance": 12
+        },
+        "unconnectedItems": 193
+      }
+    },
+    {
+      "board": "buildbotics-controller",
+      "layers": 4,
+      "ratsnest": 785,
+      "seconds": 1094.1,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 1086.7,
+      "completeAtS": null,
+      "completionPct": 98.73,
+      "unconnected": 10,
+      "vias": 401,
+      "trackMm": 12542.8,
+      "drc": {
+        "errors": 4,
+        "errorsByType": {
+          "footprint_type_mismatch": 4
+        },
+        "unconnectedItems": 10
+      }
+    },
+    {
+      "board": "ecp5-dc-scm",
+      "layers": 8,
+      "ratsnest": 1843,
+      "seconds": 1228,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 735.2,
+      "completeAtS": null,
+      "completionPct": 79.92,
+      "unconnected": 370,
+      "vias": 1396,
+      "trackMm": 10673.285,
+      "drc": {
+        "errors": 23,
+        "errorsByType": {
+          "courtyards_overlap": 5,
+          "clearance": 18
+        },
+        "unconnectedItems": 370
+      }
+    },
+    {
+      "board": "water-level-monitor",
+      "layers": 2,
+      "ratsnest": 52,
+      "seconds": 5.9,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 3,
+      "completeAtS": 3,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 15,
+      "trackMm": 472.89,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "dual-ipex-csi-interposer",
+      "layers": 4,
+      "ratsnest": 85,
+      "seconds": 22.7,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 17.6,
+      "completeAtS": 17.6,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 121,
+      "trackMm": 958.245,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "rp2040-devboard",
+      "layers": 2,
+      "ratsnest": 135,
+      "seconds": 1079.6,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 846.3,
+      "completeAtS": null,
+      "completionPct": 81.48,
+      "unconnected": 25,
+      "vias": 97,
+      "trackMm": 674.136,
+      "drc": {
+        "errors": 3,
+        "errorsByType": {
+          "courtyards_overlap": 3
+        },
+        "unconnectedItems": 25
+      }
+    },
+    {
+      "board": "pmod-i3c-sensor",
+      "layers": 4,
+      "ratsnest": 182,
+      "seconds": 102.3,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 45,
+      "completeAtS": 45,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 104,
+      "trackMm": 639.553,
+      "drc": {
+        "errors": 7,
+        "errorsByType": {
+          "courtyards_overlap": 7
+        },
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "cvbs-mipi-bridge",
+      "layers": 4,
+      "ratsnest": 207,
+      "seconds": 157.2,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 154.8,
+      "completeAtS": 154.8,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 80,
+      "trackMm": 1358.787,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "seven",
+      "layers": 4,
+      "ratsnest": 230,
+      "seconds": 1139.5,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 1135.3,
+      "completeAtS": null,
+      "completionPct": 99.13,
+      "unconnected": 2,
+      "vias": 166,
+      "trackMm": 3533.299,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 2
+      }
+    },
+    {
+      "board": "ftdi-jtag-programmer",
+      "layers": 4,
+      "ratsnest": 260,
+      "seconds": 157.9,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 156,
+      "completeAtS": 156,
+      "completionPct": 100,
+      "unconnected": 0,
+      "vias": 111,
+      "trackMm": 1437.817,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 0
+      }
+    },
+    {
+      "board": "rp2350-pico2-bb48",
+      "layers": 4,
+      "ratsnest": 240,
+      "seconds": 1103.7,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 1098.1,
+      "completeAtS": null,
+      "completionPct": 86.67,
+      "unconnected": 32,
+      "vias": 94,
+      "trackMm": 1827.829,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 32
+      }
+    },
+    {
+      "board": "cm4-lvds-adapter",
+      "layers": 6,
+      "ratsnest": 377,
+      "seconds": 1104.5,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 158.1,
+      "completeAtS": null,
+      "completionPct": 99.73,
+      "unconnected": 1,
+      "vias": 332,
+      "trackMm": 2257.553,
+      "drc": {
+        "errors": 3,
+        "errorsByType": {
+          "solder_mask_bridge": 3
+        },
+        "unconnectedItems": 1
+      }
+    },
+    {
+      "board": "stm32h7-hdmi-sodimm",
+      "layers": 6,
+      "ratsnest": 567,
+      "seconds": 1097,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": null,
+      "completeAtS": null,
+      "completionPct": 87.65,
+      "unconnected": 70,
+      "vias": 334,
+      "trackMm": 3329.744,
+      "drc": {
+        "errors": 199,
+        "errorsByType": {
+          "track_width": 199
+        },
+        "unconnectedItems": 70
+      }
+    },
+    {
+      "board": "discretesim-hwtest",
+      "layers": 2,
+      "ratsnest": 582,
+      "seconds": 1112.1,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 1104.7,
+      "completeAtS": null,
+      "completionPct": 96.74,
+      "unconnected": 19,
+      "vias": 214,
+      "trackMm": 2052.139,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 19
+      }
+    },
+    {
+      "board": "emberone",
+      "layers": 6,
+      "ratsnest": 862,
+      "seconds": 1158,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": 1005.2,
+      "completeAtS": null,
+      "completionPct": 97.56,
+      "unconnected": 21,
+      "vias": 680,
+      "trackMm": 6482.057,
+      "drc": {
+        "errors": 50,
+        "errorsByType": {
+          "hole_to_hole": 50
+        },
+        "unconnectedItems": 21
+      }
+    },
+    {
+      "board": "hackrf-pro",
+      "layers": 6,
+      "ratsnest": 1364,
+      "seconds": 1161.2,
+      "timedOut": false,
+      "version": "Koppar",
+      "finishedAtS": null,
+      "completeAtS": null,
+      "completionPct": 87.9,
+      "unconnected": 165,
+      "vias": 911,
+      "trackMm": 5393.043,
+      "drc": {
+        "errors": 0,
+        "errorsByType": {},
+        "unconnectedItems": 165
+      }
+    }
+  ]
+}

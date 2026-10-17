@@ -1,0 +1,6 @@
+work/
+node_modules/
+tools/jdk25/
+tools/TraceMaker/
+tools/*.jar
+__pycache__/

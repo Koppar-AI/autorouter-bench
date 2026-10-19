@@ -145,14 +145,20 @@ board into `results/<campaign>/<tool>.json`.
   endpoint at tools.koppar.ai; a board past 300 connections needs an account API
   key, read from `KOPPAR_API_KEY`. `koppar` keeps every via out of pin pads (the
   default); `koppar_filled` lets vias sit in pin pads, for a board ordered with
-  filled and capped vias.
+  filled and capped vias. The service holds a route to the 1200 s cap itself: a
+  step that would end past it is skipped or undone, so the board returned is the
+  last one inside the cap. The harness polls the job for up to the cap + 600 s,
+  which is waiting time, not routing time.
 
 - **Zap!** (Mutual Solutions): a hosted service. `harness/run.py zap` sends the
   board and its project to zap.mutual.solutions with `fab_floor=board` (the
   board's rules, as every other tool gets) and the service defaults otherwise
-  (its own pours, no vias in pads). Time is the job's run time on the service,
-  not its queue; a job still running at the cap is cancelled. The API key is
-  read from `ZAP_KEY_FILE` (default `~/.zap-key`).
+  (its own pours, no vias in pads), and `minutes` = the cap (20). Time is the
+  job's run time on the service, without its queue, upload or download, so the
+  whole cap is routing time, as it is for Koppar. The job is polled for up to the cap + 600 s, like
+  Koppar's; a board that comes back after the cap is scored and marked late, and
+  a job still running then is cancelled. Boards run one at a time. The API key
+  is read from `ZAP_KEY_FILE` (default `~/.zap-key`).
 
 Every router runs with its defaults and the board's rules. A router's author
 may know settings that do better; the harness is here so anyone can show it.
@@ -171,7 +177,7 @@ Boards fully routed (100% completion) with no DRC error added, out of eight:
 | Koppar | 8 |
 | Koppar (filled vias) | 8 |
 | TraceMaker 0.9.0 | 5 |
-| Zap! | 3 |
+| Zap! 2026.10.14.78 | 3 |
 | Freerouting 2.5.0 | 0 |
 | tscircuit 0.0.979 | 0 |
 | KiCad Routing Tools 0.1.9 | 0 |

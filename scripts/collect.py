@@ -43,7 +43,7 @@ def main():
             if isinstance(d, dict) and d.get("errors") is not None:
                 new = {k: v - bt.get(k, 0) for k, v in (d.get("errorsByType") or {}).items() if v - bt.get(k, 0) > 0}
                 d = {**d, "netNew": sum(new.values()), "netNewByType": new}
-            row[key] = {k: r.get(k) for k in ("completionPct", "unconnected", "vias", "viasInPinPads", "trackMm", "seconds", "finishedAtS", "timedOut", "netByNet", "version", "refused")} | {"drc": d}
+            row[key] = {k: r.get(k) for k in ("completionPct", "unconnected", "vias", "viasInPinPads", "trackMm", "seconds", "finishedAtS", "timedOut", "late", "netByNet", "version", "refused")} | {"drc": d}
         rows.append(row)
     out = {
         "campaign": campaign,
@@ -68,7 +68,7 @@ def main():
                 cells.append(f"timed out ({x['seconds']} s)" if x.get("timedOut") else f"no board ({x['seconds']} s)")
             else:
                 n = (x.get("drc") or {}).get("netNew")
-                cells.append(f"{x['completionPct']:g}% · {n if n is not None else '?'} DRC · {x['vias']} vias · {x['seconds']} s")
+                cells.append(f"{x['completionPct']:g}% · {n if n is not None else '?'} DRC · {x['vias']} vias · {x['seconds']} s" + (" (late)" if x.get("late") else ""))
         lines.append(f"| {r['board']} | {r['layers']} | {r.get('ratsnest')} | " + " | ".join(cells) + " |")
     with open(os.path.join(here, "summary.md"), "w") as f:
         f.write("\n".join(lines) + "\n")

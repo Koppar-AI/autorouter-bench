@@ -173,6 +173,9 @@ def koppar(name, out, unrouted, dsn, vias_in_pads="none"):
     with urllib.request.urlopen(req, timeout=120) as resp:
         job_id = json.load(resp)["job_id"]
     status = {}
+    # the service holds the route to the cap itself (a step that would end past it is skipped or
+    # undone), so the board it returns is an in-cap one; the extra 600 s is only how long this
+    # client keeps polling, never routing time
     while time.time() - t0 < CAP_S + 600:
         time.sleep(10)
         with urllib.request.urlopen(f"{KOPPAR_API}/api/tools/jobs/{job_id}", timeout=60) as resp:
@@ -195,14 +198,16 @@ def zap(name, out, unrouted, dsn):
     """Zap! (Mutual Solutions), its hosted API: the unrouted board and its benchmark project in,
     the routed board out. fab_floor=board: the board's own rules, as every other tool gets (the
     default would hold it to JLC's minimums); everything else at the service defaults (its own
-    pours, no vias in pads). Timed from the job's start on the service, not its queue; a job still
-    running at the cap is cancelled and counts as timed out."""
+    pours, no vias in pads). minutes = the cap: the time counted is the job's run on the service,
+    which leaves out upload and download, so the whole cap is the service's to route in. Timed from the job's start on the service, not its queue. Polled to the cap +
+    600 s like Koppar: a board that comes back after the cap (time_budget.stopped "over_time") is
+    scored and marked late; a job still running then is cancelled and counts as timed out."""
     import urllib.error
     import urllib.request
     import uuid
     with open(ZAP_KEY_FILE) as f:
         auth = {"Authorization": "Bearer " + f.read().strip()}
-    fields = {"fab_floor": "board", "consent_training": "false"}
+    fields = {"fab_floor": "board", "consent_training": "false", "minutes": str(CAP_S // 60)}
     files = {"board": (os.path.basename(unrouted), unrouted), "project": ("circuit.kicad_pro", os.path.join(board_dir(name), "circuit.kicad_pro"))}
     bnd = uuid.uuid4().hex
     body = b""
@@ -235,7 +240,7 @@ def zap(name, out, unrouted, dsn):
             started = time.time()
         if status.get("status") in ("succeeded", "failed", "cancelled"):
             break
-        if started is not None and time.time() - started > CAP_S:
+        if started is not None and time.time() - started > CAP_S + 600:
             call(f"/v1/jobs/{job}", method="DELETE")
             break
     ended = time.time()
@@ -248,7 +253,10 @@ def zap(name, out, unrouted, dsn):
     if status.get("status") == "succeeded":
         with open(routed, "wb") as f:
             f.write(call(f"/v1/jobs/{job}/result"))
-    return (routed if os.path.exists(routed) else None), r, {"job": job, "version": status.get("version"), "queuedS": round((started or ended) - t0, 1), "zapMetrics": status.get("metrics")}
+    stopped = ((status.get("metrics") or {}).get("time_budget") or {}).get("stopped")
+    late = status.get("status") == "succeeded" and (secs > CAP_S or stopped == "over_time")
+    return (routed if os.path.exists(routed) else None), r, {"job": job, "version": status.get("version"), "queuedS": round((started or ended) - t0, 1),
+                                                           "late": late, "zapMetrics": status.get("metrics")}
 
 
 TOOLS = {"freerouting": freerouting, "tscircuit": srj_tool("tscircuit"), "krt": srj_tool("krt"), "tracemaker": tracemaker, "koppar": koppar,

@@ -1494,13 +1494,13 @@
     "pairs": {
      "count": 1,
      "routed": 1,
-     "median_skew_mm": 0.171,
+     "median_skew_mm": 0.095,
      "median_coupled_pct": 98.9,
      "rows": [
       {
        "pair": "/USB_D+",
        "routed": true,
-       "skew_mm": 0.171,
+       "skew_mm": 0.095,
        "coupled_pct": 98.9
       }
      ]
@@ -4311,6 +4311,251 @@
       }
      ]
     }
+   },
+   "zap": {
+    "return_path": {
+     "hs_nets": 66,
+     "hs_vias": 42,
+     "hs_vias_with_ground_via": 39,
+     "hs_vias_with_ground_via_pct": 92.9,
+     "hs_track_mm": 1904.4,
+     "hs_over_ground_pct": 97.2,
+     "hs_over_plane_pct": 97.2
+    },
+    "pairs": {
+     "count": 32,
+     "routed": 12,
+     "median_skew_mm": 0.494,
+     "median_coupled_pct": 22.3,
+     "rows": [
+      {
+       "pair": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_P",
+       "routed": true,
+       "skew_mm": 0.154,
+       "coupled_pct": 0.0
+      },
+      {
+       "pair": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P",
+       "routed": true,
+       "skew_mm": 51.539,
+       "coupled_pct": 0.0
+      },
+      {
+       "pair": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_P",
+       "routed": true,
+       "skew_mm": 0.345,
+       "coupled_pct": 0.4
+      },
+      {
+       "pair": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P",
+       "routed": true,
+       "skew_mm": 5.418,
+       "coupled_pct": 12.2
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY0_C_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY0_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY0_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY0_D2_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY0_D3_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY1_C_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY1_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY1_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY1_D2_P",
+       "routed": true,
+       "skew_mm": 0.222,
+       "coupled_pct": 92.6
+      },
+      {
+       "pair": "/CM5_HighSpeed/DPHY1_D3_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI0_CK_P",
+       "routed": true,
+       "skew_mm": 2.507,
+       "coupled_pct": 97.0
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI0_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI0_D1_P",
+       "routed": true,
+       "skew_mm": 1.121,
+       "coupled_pct": 9.4
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI0_D2_P",
+       "routed": true,
+       "skew_mm": 1.502,
+       "coupled_pct": 35.4
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI1_CK_P",
+       "routed": true,
+       "skew_mm": 0.644,
+       "coupled_pct": 33.0
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI1_D0_P",
+       "routed": true,
+       "skew_mm": 0.031,
+       "coupled_pct": 37.8
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI1_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/HDMI1_D2_P",
+       "routed": true,
+       "skew_mm": 0.093,
+       "coupled_pct": 32.4
+      },
+      {
+       "pair": "/CM5_HighSpeed/PCIE_CLK_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/PCIE_RX_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/PCIE_TX_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/USB3-0-D_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/USB3-0-RX_P",
+       "routed": true,
+       "skew_mm": 0.041,
+       "coupled_pct": 0.0
+      },
+      {
+       "pair": "/CM5_HighSpeed/USB3-0-TX_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/USB3-1-D_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/USB3-1-RX_P",
+       "routed": false
+      },
+      {
+       "pair": "/CM5_HighSpeed/USB3-1-TX_P",
+       "routed": false
+      },
+      {
+       "pair": "/USB2_P",
+       "routed": false
+      }
+     ]
+    },
+    "rails": {
+     "count": 2,
+     "rows": [
+      {
+       "net": "/+3.3v",
+       "narrowest_mm": 0.13,
+       "track_mm": 283.4,
+       "poured": true
+      },
+      {
+       "net": "/+5v",
+       "narrowest_mm": 0.13,
+       "track_mm": 240.8,
+       "poured": true
+      }
+     ]
+    },
+    "decoupling": {
+     "caps": 7,
+     "by_tracks": 4,
+     "median_path_mm": 1.92,
+     "median_vias": 0.0,
+     "rows": [
+      {
+       "cap": "C12",
+       "net": "/+5v",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C6",
+       "net": "/+5v",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C10",
+       "net": "/+5v",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C2",
+       "net": "/+5v",
+       "path_mm": 45.81,
+       "vias": 2,
+       "to": "Module1.77"
+      },
+      {
+       "cap": "C18",
+       "net": "/+5v",
+       "path_mm": 1.94,
+       "vias": 0,
+       "to": "J11.A9"
+      },
+      {
+       "cap": "C9",
+       "net": "/+5v",
+       "path_mm": 1.9,
+       "vias": 0,
+       "to": "J11.A4"
+      },
+      {
+       "cap": "C4",
+       "net": "/+5v",
+       "path_mm": 1.34,
+       "vias": 0,
+       "to": "U8.3"
+      }
+     ]
+    }
    }
   },
   "rk3328-som-evb": {
@@ -5892,14 +6137,14 @@
      "hs_vias": 51,
      "hs_vias_with_ground_via": 36,
      "hs_vias_with_ground_via_pct": 70.6,
-     "hs_track_mm": 823.0,
+     "hs_track_mm": 822.9,
      "hs_over_ground_pct": 94.4,
      "hs_over_plane_pct": 94.4
     },
     "pairs": {
      "count": 15,
      "routed": 15,
-     "median_skew_mm": 0.209,
+     "median_skew_mm": 0.166,
      "median_coupled_pct": 77.9,
      "rows": [
       {
@@ -5977,13 +6222,13 @@
       {
        "pair": "/USB30_D_P",
        "routed": true,
-       "skew_mm": 0.209,
+       "skew_mm": 0.154,
        "coupled_pct": 80.4
       },
       {
        "pair": "/USB30_RX_P",
        "routed": true,
-       "skew_mm": 0.103,
+       "skew_mm": 0.118,
        "coupled_pct": 75.3
       },
       {
@@ -8493,6 +8738,398 @@
       }
      ]
     }
+   },
+   "zap": {
+    "return_path": {
+     "hs_nets": 82,
+     "hs_vias": 43,
+     "hs_vias_with_ground_via": 36,
+     "hs_vias_with_ground_via_pct": 83.7,
+     "hs_track_mm": 1344.6,
+     "hs_over_ground_pct": 95.2,
+     "hs_over_plane_pct": 95.2
+    },
+    "pairs": {
+     "count": 40,
+     "routed": 15,
+     "median_skew_mm": 0.134,
+     "median_coupled_pct": 67.3,
+     "rows": [
+      {
+       "pair": "/Interfaces/CONN_USB_P",
+       "routed": false
+      },
+      {
+       "pair": "/Interfaces/FTDI_USB_P",
+       "routed": true,
+       "skew_mm": 0.926,
+       "coupled_pct": 27.6
+      },
+      {
+       "pair": "/Interfaces/RPi_USB_P",
+       "routed": true,
+       "skew_mm": 0.029,
+       "coupled_pct": 0.0
+      },
+      {
+       "pair": "/PoE/T_ETH_D0_P",
+       "routed": true,
+       "skew_mm": 0.126,
+       "coupled_pct": 67.3
+      },
+      {
+       "pair": "/PoE/T_ETH_D1_P",
+       "routed": true,
+       "skew_mm": 0.067,
+       "coupled_pct": 0.0
+      },
+      {
+       "pair": "/PoE/T_ETH_D2_P",
+       "routed": true,
+       "skew_mm": 0.038,
+       "coupled_pct": 36.8
+      },
+      {
+       "pair": "/PoE/T_ETH_D3_P",
+       "routed": true,
+       "skew_mm": 6.263,
+       "coupled_pct": 65.8
+      },
+      {
+       "pair": "Adapter_USB_P",
+       "routed": true,
+       "skew_mm": 0.112,
+       "coupled_pct": 53.0
+      },
+      {
+       "pair": "CAM0_C_P",
+       "routed": false
+      },
+      {
+       "pair": "CAM0_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "CAM0_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "CAM1_C_P",
+       "routed": false
+      },
+      {
+       "pair": "CAM1_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "CAM1_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "CAM1_D2_P",
+       "routed": false
+      },
+      {
+       "pair": "CAM1_D3_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI0_C_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI0_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI0_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI1_C_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI1_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI1_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI1_D3_P",
+       "routed": false
+      },
+      {
+       "pair": "DSI2_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "HDMI0_CK_P",
+       "routed": true,
+       "skew_mm": 1.564,
+       "coupled_pct": 83.1
+      },
+      {
+       "pair": "HDMI0_D0_P",
+       "routed": true,
+       "skew_mm": 2.417,
+       "coupled_pct": 77.3
+      },
+      {
+       "pair": "HDMI0_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "HDMI0_D2_P",
+       "routed": false
+      },
+      {
+       "pair": "HDMI1_CK_P",
+       "routed": false
+      },
+      {
+       "pair": "HDMI1_D0_P",
+       "routed": false
+      },
+      {
+       "pair": "HDMI1_D1_P",
+       "routed": false
+      },
+      {
+       "pair": "HDMI1_D2_P",
+       "routed": false
+      },
+      {
+       "pair": "PCIE_CLK_P",
+       "routed": false
+      },
+      {
+       "pair": "PCIE_RX_P",
+       "routed": true,
+       "skew_mm": 1.032,
+       "coupled_pct": 63.5
+      },
+      {
+       "pair": "PCIE_TX_P",
+       "routed": true,
+       "skew_mm": 0.134,
+       "coupled_pct": 82.0
+      },
+      {
+       "pair": "TRD0_P",
+       "routed": true,
+       "skew_mm": 0.276,
+       "coupled_pct": 82.3
+      },
+      {
+       "pair": "TRD1_P",
+       "routed": false
+      },
+      {
+       "pair": "TRD2_P",
+       "routed": true,
+       "skew_mm": 0.086,
+       "coupled_pct": 70.9
+      },
+      {
+       "pair": "TRD3_P",
+       "routed": true,
+       "skew_mm": 0.306,
+       "coupled_pct": 84.5
+      },
+      {
+       "pair": "USB2_P",
+       "routed": true,
+       "skew_mm": 0.104,
+       "coupled_pct": 76.5
+      }
+     ]
+    },
+    "rails": {
+     "count": 5,
+     "rows": [
+      {
+       "net": "3V3_OUT",
+       "narrowest_mm": 0.24,
+       "track_mm": 57.3,
+       "poured": true
+      },
+      {
+       "net": "3V3_RPi",
+       "narrowest_mm": 0.24,
+       "track_mm": 177.3,
+       "poured": false
+      },
+      {
+       "net": "3V3_SSD",
+       "narrowest_mm": 0.24,
+       "track_mm": 148.1,
+       "poured": true
+      },
+      {
+       "net": "VCC1V8",
+       "narrowest_mm": null,
+       "track_mm": 0.2,
+       "poured": false
+      },
+      {
+       "net": "VCC5V0",
+       "narrowest_mm": 0.24,
+       "track_mm": 124.0,
+       "poured": true
+      }
+     ]
+    },
+    "decoupling": {
+     "caps": 20,
+     "by_tracks": 6,
+     "median_path_mm": 1.34,
+     "median_vias": 0.0,
+     "rows": [
+      {
+       "cap": "C14",
+       "net": "3V3_RPi",
+       "path_mm": 1.63,
+       "vias": 0,
+       "to": "U1.10"
+      },
+      {
+       "cap": "C13",
+       "net": "3V3_RPi",
+       "path_mm": 12.91,
+       "vias": 2,
+       "to": "U5.10"
+      },
+      {
+       "cap": "C15",
+       "net": "3V3_RPi",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C7",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C2",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C12",
+       "net": "3V3_SSD",
+       "path_mm": 1.05,
+       "vias": 0,
+       "to": "J3.4"
+      },
+      {
+       "cap": "C8",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C5",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C11",
+       "net": "3V3_SSD",
+       "path_mm": 1.05,
+       "vias": 0,
+       "to": "J3.18"
+      },
+      {
+       "cap": "C3",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C10",
+       "net": "3V3_SSD",
+       "path_mm": 1.05,
+       "vias": 0,
+       "to": "J3.74"
+      },
+      {
+       "cap": "C18",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C16",
+       "net": "VCC5V0",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C1",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C4",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C9",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C6",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C19",
+       "net": "3V3_SSD",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C51",
+       "net": "3V3_RPi",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C52",
+       "net": "3V3_RPi",
+       "path_mm": 17.08,
+       "vias": 1,
+       "to": "J7.86"
+      }
+     ]
+    }
    }
   },
   "stmp157-som-evb": {
@@ -10485,72 +11122,72 @@
    "zap": {
     "return_path": {
      "hs_nets": 37,
-     "hs_vias": 44,
-     "hs_vias_with_ground_via": 25,
-     "hs_vias_with_ground_via_pct": 56.8,
-     "hs_track_mm": 908.2,
-     "hs_over_ground_pct": 87.5,
-     "hs_over_plane_pct": 87.5
+     "hs_vias": 57,
+     "hs_vias_with_ground_via": 35,
+     "hs_vias_with_ground_via_pct": 61.4,
+     "hs_track_mm": 791.5,
+     "hs_over_ground_pct": 90.0,
+     "hs_over_plane_pct": 90.0
     },
     "pairs": {
      "count": 14,
-     "routed": 13,
-     "median_skew_mm": 0.147,
-     "median_coupled_pct": 29.0,
+     "routed": 12,
+     "median_skew_mm": 0.788,
+     "median_coupled_pct": 39.75,
      "rows": [
       {
        "pair": "/HTX0P",
        "routed": true,
-       "skew_mm": 0.144,
+       "skew_mm": 0.172,
        "coupled_pct": 97.4
       },
       {
        "pair": "/HTX1P",
        "routed": true,
-       "skew_mm": 13.742,
-       "coupled_pct": 1.9
+       "skew_mm": 6.937,
+       "coupled_pct": 28.5
       },
       {
        "pair": "/HTX2P",
        "routed": true,
-       "skew_mm": 0.083,
-       "coupled_pct": 96.7
+       "skew_mm": 7.072,
+       "coupled_pct": 32.6
       },
       {
        "pair": "/HTXCP",
        "routed": true,
-       "skew_mm": 0.266,
-       "coupled_pct": 92.8
+       "skew_mm": 0.039,
+       "coupled_pct": 34.8
       },
       {
        "pair": "/MDI[0]+",
        "routed": true,
-       "skew_mm": 0.082,
-       "coupled_pct": 23.3
+       "skew_mm": 7.346,
+       "coupled_pct": 16.6
       },
       {
        "pair": "/MDI[1]+",
        "routed": true,
-       "skew_mm": 0.114,
-       "coupled_pct": 23.9
+       "skew_mm": 0.067,
+       "coupled_pct": 20.5
       },
       {
        "pair": "/MDI[2]+",
        "routed": true,
-       "skew_mm": 0.147,
-       "coupled_pct": 0.0
+       "skew_mm": 1.239,
+       "coupled_pct": 7.1
       },
       {
        "pair": "/MDI[3]+",
        "routed": true,
-       "skew_mm": 1.27,
-       "coupled_pct": 52.1
+       "skew_mm": 0.116,
+       "coupled_pct": 44.7
       },
       {
        "pair": "DSI_CKP",
        "routed": true,
-       "skew_mm": 0.072,
-       "coupled_pct": 29.0
+       "skew_mm": 0.337,
+       "coupled_pct": 54.6
       },
       {
        "pair": "DSI_D0P",
@@ -10558,26 +11195,24 @@
       },
       {
        "pair": "DSI_D1P",
-       "routed": true,
-       "skew_mm": 0.092,
-       "coupled_pct": 0.0
+       "routed": false
       },
       {
        "pair": "USB1_D+",
        "routed": true,
-       "skew_mm": 13.525,
-       "coupled_pct": 0.0
+       "skew_mm": 3.057,
+       "coupled_pct": 61.6
       },
       {
        "pair": "USB2_D+",
        "routed": true,
-       "skew_mm": 2.529,
-       "coupled_pct": 94.6
+       "skew_mm": 2.156,
+       "coupled_pct": 93.5
       },
       {
        "pair": "USB_OTG_FS_D+",
        "routed": true,
-       "skew_mm": 2.584,
+       "skew_mm": 0.055,
        "coupled_pct": 91.8
       }
      ]
@@ -10587,65 +11222,65 @@
      "rows": [
       {
        "net": "+2V8",
-       "narrowest_mm": 0.321,
-       "track_mm": 81.6,
+       "narrowest_mm": 0.2,
+       "track_mm": 77.8,
        "poured": false
       },
       {
        "net": "+3.3V",
-       "narrowest_mm": 0.321,
-       "track_mm": 406.1,
+       "narrowest_mm": 0.2,
+       "track_mm": 426.7,
        "poured": false
       },
       {
        "net": "+5V",
-       "narrowest_mm": 0.321,
-       "track_mm": 241.2,
+       "narrowest_mm": 0.2,
+       "track_mm": 254.1,
        "poured": false
       },
       {
        "net": "+5V_EXT",
-       "narrowest_mm": 0.321,
-       "track_mm": 82.4,
+       "narrowest_mm": 0.2,
+       "track_mm": 91.2,
        "poured": true
       },
       {
        "net": "/VDD33",
        "narrowest_mm": 0.2,
-       "track_mm": 99.0,
+       "track_mm": 95.2,
        "poured": false
       },
       {
        "net": "1.2V_HDMI",
        "narrowest_mm": 0.2,
-       "track_mm": 149.8,
+       "track_mm": 159.6,
        "poured": false
       },
       {
        "net": "VBAT",
-       "narrowest_mm": 0.321,
-       "track_mm": 41.4,
+       "narrowest_mm": 0.2,
+       "track_mm": 44.4,
        "poured": true
       }
      ]
     },
     "decoupling": {
      "caps": 26,
-     "by_tracks": 18,
-     "median_path_mm": 4.805,
+     "by_tracks": 14,
+     "median_path_mm": 3.53,
      "median_vias": 0.0,
      "rows": [
       {
        "cap": "C3",
        "net": "+5V_EXT",
-       "path_mm": 38.19,
-       "vias": 2,
-       "to": "GPIO1.7"
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
       },
       {
        "cap": "C13",
        "net": "+3.3V",
-       "path_mm": 10.84,
+       "path_mm": 10.97,
        "vias": 0,
        "to": "GPIO5.1"
       },
@@ -10666,14 +11301,14 @@
       {
        "cap": "C67",
        "net": "+5V",
-       "path_mm": 66.88,
-       "vias": 4,
+       "path_mm": 63.77,
+       "vias": 2,
        "to": "EXT1.1"
       },
       {
        "cap": "C50",
        "net": "/VDD33",
-       "path_mm": 3.02,
+       "path_mm": 2.58,
        "vias": 0,
        "to": "U13.1"
       },
@@ -10694,44 +11329,44 @@
       {
        "cap": "C57",
        "net": "/VDD33",
-       "path_mm": 8.76,
-       "vias": 2,
-       "to": "U13.34"
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
       },
       {
        "cap": "C56",
        "net": "/VDD33",
-       "path_mm": 3.09,
+       "path_mm": 3.42,
        "vias": 0,
        "to": "U13.34"
       },
       {
        "cap": "C41",
        "net": "+3.3V",
-       "path_mm": 16.58,
-       "vias": 4,
+       "path_mm": 16.3,
+       "vias": 0,
        "to": "CAM1.11"
       },
       {
        "cap": "C39",
        "net": "+2V8",
-       "path_mm": 9.84,
+       "path_mm": 9.77,
        "vias": 0,
        "to": "CAM1.4"
       },
       {
        "cap": "C21",
        "net": "1.2V_HDMI",
-       "path_mm": 6.16,
-       "vias": 2,
-       "to": "U6.23"
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
       },
       {
        "cap": "C20",
        "net": "1.2V_HDMI",
-       "path_mm": 6.42,
-       "vias": 2,
-       "to": "U6.23"
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
       },
       {
        "cap": "C18",
@@ -10743,51 +11378,51 @@
       {
        "cap": "C17",
        "net": "1.2V_HDMI",
-       "path_mm": 2.84,
+       "path_mm": 2.86,
        "vias": 0,
        "to": "U6.8"
       },
       {
        "cap": "C15",
        "net": "+3.3V",
-       "path_mm": 3.04,
+       "path_mm": 3.06,
        "vias": 0,
        "to": "U6.34"
       },
       {
        "cap": "C35",
        "net": "+3.3V",
-       "path_mm": 3.45,
+       "path_mm": 3.64,
        "vias": 0,
        "to": "U7.16"
       },
       {
        "cap": "C55",
        "net": "/VDD33",
-       "path_mm": 2.65,
+       "path_mm": 2.74,
        "vias": 0,
        "to": "U13.16"
       },
       {
        "cap": "C40",
        "net": "1.2V_HDMI",
-       "path_mm": 15.03,
+       "path_mm": 14.72,
        "vias": 0,
        "to": "CAM1.10"
       },
       {
        "cap": "C16",
        "net": "1.2V_HDMI",
-       "path_mm": null,
-       "vias": null,
-       "note": "no track path (through a pour, or not connected)"
+       "path_mm": 8.88,
+       "vias": 2,
+       "to": "U6.18"
       },
       {
        "cap": "C51",
        "net": "/VDD33",
-       "path_mm": 3.22,
-       "vias": 2,
-       "to": "U13.12"
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
       },
       {
        "cap": "C22",
@@ -10813,8 +11448,8 @@
       {
        "cap": "C14",
        "net": "+3.3V",
-       "path_mm": 3.37,
-       "vias": 0,
+       "path_mm": 3.19,
+       "vias": 2,
        "to": "U6.1"
       }
      ]
@@ -13974,6 +14609,534 @@
        "path_mm": 53.68,
        "vias": 4,
        "to": "U11.16"
+      }
+     ]
+    }
+   },
+   "zap": {
+    "return_path": {
+     "hs_nets": 67,
+     "hs_vias": 101,
+     "hs_vias_with_ground_via": 79,
+     "hs_vias_with_ground_via_pct": 78.2,
+     "hs_track_mm": 1838.4,
+     "hs_over_ground_pct": 93.2,
+     "hs_over_plane_pct": 93.2
+    },
+    "pairs": {
+     "count": 27,
+     "routed": 25,
+     "median_skew_mm": 0.228,
+     "median_coupled_pct": 60.4,
+     "rows": [
+      {
+       "pair": "/CLK0_P",
+       "routed": true,
+       "skew_mm": 0.373,
+       "coupled_pct": 25.9
+      },
+      {
+       "pair": "/CLK1_P",
+       "routed": true,
+       "skew_mm": 0.228,
+       "coupled_pct": 17.9
+      },
+      {
+       "pair": "/HDMI_TX0_P",
+       "routed": true,
+       "skew_mm": 1.487,
+       "coupled_pct": 42.7
+      },
+      {
+       "pair": "/HDMI_TX1_P",
+       "routed": true,
+       "skew_mm": 0.7,
+       "coupled_pct": 94.8
+      },
+      {
+       "pair": "/HDMI_TX2_P",
+       "routed": true,
+       "skew_mm": 1.399,
+       "coupled_pct": 90.4
+      },
+      {
+       "pair": "/HDMI_TXC_P",
+       "routed": true,
+       "skew_mm": 0.137,
+       "coupled_pct": 84.8
+      },
+      {
+       "pair": "/MDI1[0]+",
+       "routed": true,
+       "skew_mm": 0.124,
+       "coupled_pct": 20.4
+      },
+      {
+       "pair": "/MDI1[1]+",
+       "routed": true,
+       "skew_mm": 8.573,
+       "coupled_pct": 47.4
+      },
+      {
+       "pair": "/MDI1[2]+",
+       "routed": true,
+       "skew_mm": 0.001,
+       "coupled_pct": 56.5
+      },
+      {
+       "pair": "/MDI1[3]+",
+       "routed": true,
+       "skew_mm": 0.351,
+       "coupled_pct": 76.5
+      },
+      {
+       "pair": "/MDI[0]+",
+       "routed": true,
+       "skew_mm": 5.286,
+       "coupled_pct": 30.5
+      },
+      {
+       "pair": "/MDI[1]+",
+       "routed": true,
+       "skew_mm": 0.048,
+       "coupled_pct": 41.9
+      },
+      {
+       "pair": "/MDI[2]+",
+       "routed": true,
+       "skew_mm": 0.149,
+       "coupled_pct": 60.8
+      },
+      {
+       "pair": "/MDI[3]+",
+       "routed": true,
+       "skew_mm": 0.026,
+       "coupled_pct": 10.1
+      },
+      {
+       "pair": "/PCIE_CLK_P",
+       "routed": true,
+       "skew_mm": 5.857,
+       "coupled_pct": 86.8
+      },
+      {
+       "pair": "/PCIE_RX_P",
+       "routed": false
+      },
+      {
+       "pair": "/PCIE_TX_P",
+       "routed": true,
+       "skew_mm": 0.069,
+       "coupled_pct": 72.8
+      },
+      {
+       "pair": "/PCIE_X1_REFCLK100M_P",
+       "routed": true,
+       "skew_mm": 0.159,
+       "coupled_pct": 60.4
+      },
+      {
+       "pair": "/PET_P",
+       "routed": true,
+       "skew_mm": 0.819,
+       "coupled_pct": 100.0
+      },
+      {
+       "pair": "/USB1_D_P",
+       "routed": true,
+       "skew_mm": 0.108,
+       "coupled_pct": 1.6
+      },
+      {
+       "pair": "/USB1_RX_P",
+       "routed": false
+      },
+      {
+       "pair": "/USB1_TX+",
+       "routed": true,
+       "skew_mm": 0.207,
+       "coupled_pct": 71.6
+      },
+      {
+       "pair": "/USB1_TX_P",
+       "routed": true,
+       "skew_mm": 0.326,
+       "coupled_pct": 62.1
+      },
+      {
+       "pair": "/USB2_D_P",
+       "routed": true,
+       "skew_mm": 0.078,
+       "coupled_pct": 64.7
+      },
+      {
+       "pair": "/USB2_RX_P",
+       "routed": true,
+       "skew_mm": 3.919,
+       "coupled_pct": 33.8
+      },
+      {
+       "pair": "/USB2_TX+",
+       "routed": true,
+       "skew_mm": 0.088,
+       "coupled_pct": 63.5
+      },
+      {
+       "pair": "/USB2_TX_P",
+       "routed": true,
+       "skew_mm": 2.495,
+       "coupled_pct": 43.9
+      }
+     ]
+    },
+    "rails": {
+     "count": 19,
+     "rows": [
+      {
+       "net": "+3.3VA",
+       "narrowest_mm": 0.2,
+       "track_mm": 51.0,
+       "poured": false
+      },
+      {
+       "net": "+3.3VPCIe",
+       "narrowest_mm": 0.2,
+       "track_mm": 34.7,
+       "poured": true
+      },
+      {
+       "net": "+5V",
+       "narrowest_mm": 0.2,
+       "track_mm": 191.6,
+       "poured": false
+      },
+      {
+       "net": "/HDMI_HPD_5V",
+       "narrowest_mm": 0.2,
+       "track_mm": 4.7,
+       "poured": false
+      },
+      {
+       "net": "/I2C1_SCL_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 82.1,
+       "poured": false
+      },
+      {
+       "net": "/I2C1_SDA_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 79.8,
+       "poured": false
+      },
+      {
+       "net": "/I2C2_SCL_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 144.4,
+       "poured": false
+      },
+      {
+       "net": "/I2C2_SDA_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 137.2,
+       "poured": false
+      },
+      {
+       "net": "/PCIe_nCLKREQ_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 36.9,
+       "poured": false
+      },
+      {
+       "net": "/PCIe_nRST_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 15.8,
+       "poured": true
+      },
+      {
+       "net": "/PCIe_nWAKE_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 16.2,
+       "poured": false
+      },
+      {
+       "net": "/REF_CLK_32K_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 11.4,
+       "poured": false
+      },
+      {
+       "net": "/USB1_VBUS_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 21.1,
+       "poured": false
+      },
+      {
+       "net": "/USB2_VBUS_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 11.9,
+       "poured": false
+      },
+      {
+       "net": "/VDD33",
+       "narrowest_mm": 0.2,
+       "track_mm": 11.7,
+       "poured": false
+      },
+      {
+       "net": "/VDD33_1",
+       "narrowest_mm": 0.2,
+       "track_mm": 12.0,
+       "poured": false
+      },
+      {
+       "net": "VDD_1V8",
+       "narrowest_mm": 0.2,
+       "track_mm": 474.6,
+       "poured": true
+      },
+      {
+       "net": "VDD_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 432.7,
+       "poured": false
+      },
+      {
+       "net": "VSD_3V3",
+       "narrowest_mm": 0.2,
+       "track_mm": 37.8,
+       "poured": true
+      }
+     ]
+    },
+    "decoupling": {
+     "caps": 32,
+     "by_tracks": 23,
+     "median_path_mm": 1.45,
+     "median_vias": 0,
+     "rows": [
+      {
+       "cap": "C39",
+       "net": "+5V",
+       "path_mm": 25.45,
+       "vias": 0,
+       "to": "GPIO6.1"
+      },
+      {
+       "cap": "C54",
+       "net": "VDD_1V8",
+       "path_mm": 0.75,
+       "vias": 0,
+       "to": "U5.5"
+      },
+      {
+       "cap": "C55",
+       "net": "+5V",
+       "path_mm": 0.77,
+       "vias": 0,
+       "to": "U5.3"
+      },
+      {
+       "cap": "C80",
+       "net": "VDD_1V8",
+       "path_mm": 1.07,
+       "vias": 0,
+       "to": "U15.8"
+      },
+      {
+       "cap": "C82",
+       "net": "VDD_1V8",
+       "path_mm": 1.07,
+       "vias": 0,
+       "to": "U17.1"
+      },
+      {
+       "cap": "C83",
+       "net": "VDD_3V3",
+       "path_mm": 1.34,
+       "vias": 0,
+       "to": "U15.1"
+      },
+      {
+       "cap": "C85",
+       "net": "VDD_3V3",
+       "path_mm": 1.07,
+       "vias": 0,
+       "to": "U17.8"
+      },
+      {
+       "cap": "C97",
+       "net": "+5V",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C98",
+       "net": "+5V",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C77",
+       "net": "+5V",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C13",
+       "net": "+5V",
+       "path_mm": 54.34,
+       "vias": 6,
+       "to": "GPIO1.9"
+      },
+      {
+       "cap": "C72",
+       "net": "+3.3VA",
+       "path_mm": 1.45,
+       "vias": 0,
+       "to": "U11.16"
+      },
+      {
+       "cap": "C96",
+       "net": "+3.3VPCIe",
+       "path_mm": 2.85,
+       "vias": 0,
+       "to": "X1.74"
+      },
+      {
+       "cap": "C95",
+       "net": "+3.3VPCIe",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C91",
+       "net": "VDD_3V3",
+       "path_mm": 1.07,
+       "vias": 0,
+       "to": "U19.1"
+      },
+      {
+       "cap": "C90",
+       "net": "VDD_1V8",
+       "path_mm": 1.07,
+       "vias": 0,
+       "to": "U19.8"
+      },
+      {
+       "cap": "C42",
+       "net": "VDD_1V8",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C20",
+       "net": "VDD_1V8",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C19",
+       "net": "VDD_1V8",
+       "path_mm": 1.86,
+       "vias": 0,
+       "to": "U9.16"
+      },
+      {
+       "cap": "C17",
+       "net": "/VDD33",
+       "path_mm": 2.92,
+       "vias": 2,
+       "to": "U9.12"
+      },
+      {
+       "cap": "C84",
+       "net": "VDD_3V3",
+       "path_mm": 1.07,
+       "vias": 0,
+       "to": "U16.1"
+      },
+      {
+       "cap": "C81",
+       "net": "VDD_1V8",
+       "path_mm": 1.07,
+       "vias": 0,
+       "to": "U16.8"
+      },
+      {
+       "cap": "C11",
+       "net": "VDD_1V8",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C10",
+       "net": "VDD_1V8",
+       "path_mm": 1.62,
+       "vias": 0,
+       "to": "U4.34"
+      },
+      {
+       "cap": "C9",
+       "net": "VDD_1V8",
+       "path_mm": 2.48,
+       "vias": 0,
+       "to": "U4.16"
+      },
+      {
+       "cap": "C5",
+       "net": "/VDD33_1",
+       "path_mm": 3.9,
+       "vias": 2,
+       "to": "U4.12"
+      },
+      {
+       "cap": "C56",
+       "net": "VDD_1V8",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
+      },
+      {
+       "cap": "C28",
+       "net": "VDD_1V8",
+       "path_mm": 2.75,
+       "vias": 0,
+       "to": "U9.34"
+      },
+      {
+       "cap": "C4",
+       "net": "/VDD33_1",
+       "path_mm": 1.49,
+       "vias": 0,
+       "to": "U4.1"
+      },
+      {
+       "cap": "C57",
+       "net": "+5V",
+       "path_mm": 0.77,
+       "vias": 0,
+       "to": "U10.3"
+      },
+      {
+       "cap": "C25",
+       "net": "/VDD33",
+       "path_mm": 1.61,
+       "vias": 0,
+       "to": "U9.1"
+      },
+      {
+       "cap": "C70",
+       "net": "+3.3VA",
+       "path_mm": null,
+       "vias": null,
+       "note": "no track path (through a pour, or not connected)"
       }
      ]
     }

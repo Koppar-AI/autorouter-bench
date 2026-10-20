@@ -3,7 +3,7 @@
 Every router got the placement only: tracks, vias and copper zones removed, keepout areas kept,
 every net (ground included) left to the router; 1200 s per board, one workstation (24 cores,
 one GPU), KiCad 10.0.4 as referee. Runs on 2026-10-14 and 2026-10-15; the Koppar rows, both
-modes, on 2026-10-16, from one build; the Zap! rows on 2026-10-19, from its 2026.10.14.78 release.
+modes, on 2026-10-20, from one build; the Zap! rows on 2026-10-19, from its 2026.10.14.78 release.
 
 - Freerouting 2.5.0, tscircuit 0.0.979, KiCad Routing Tools 0.1.9, TraceMaker 0.9.0 and Zap!
   were run with this repository's harness.
@@ -12,6 +12,9 @@ modes, on 2026-10-16, from one build; the Zap! rows on 2026-10-19, from its 2026
   `koppar` keeps every via out of pin pads (the default; the board needs no special fab
   process), and `koppar_filled` lets vias sit in pin pads, for a board ordered with filled and
   capped vias (the extra-cost process the via-in-pad column refers to).
+- The Koppar rows were re-run on 2026-10-20 (one run per board, as before). In this run the
+  default mode left one connection open on cm5io and on imx8mp-som-evb; both boards were fully
+  routed in the previous Koppar run (2026-10-16), which is in this file's history.
 - Zap! (Mutual Solutions, hosted; service 2026.10.14.78, router r95cf716) was run with
   `harness/run.py zap`, one board at a time: `fab_floor=board`, `minutes=20` (its time is the
   job's run on the service, without queue, upload or download, so the whole cap is routing
@@ -31,11 +34,11 @@ modes, on 2026-10-16, from one build; the Zap! rows on 2026-10-19, from its 2026
 - A Koppar run that goes past the cap is scored on the last board it saved inside the cap; no
   run in these rows went past it. The service holds the route to the cap itself; the harness's
   cap + 600 s is how long it polls, not routing time. Koppar's `seconds` are measured by the
-  client and include upload and queue (longest row 1194 s); Zap!'s are its run on the service.
+  client and include upload and queue (longest row 1126 s); Zap!'s are its run on the service.
   A Zap! board returned after the cap would be scored and marked late; none was.
 - Vias in pin pads (SMD pads under 2 mm across, counted with `scripts/habits.py`): a via there
   needs a filled and capped via at the fab, and KiCad's DRC does not flag a via in its own
-  net's pad. Koppar 0 on every board; Koppar (filled vias) 1 to 379; TraceMaker (its defaults)
+  net's pad. Koppar 0 on every board; Koppar (filled vias) 1 to 386; TraceMaker (its defaults)
   14 to 200 per board; KiCad Routing Tools 0 to 61; Freerouting, tscircuit and Zap! 0 to 1.
   `viasInPinPads` in each tool's results.
 - Not scored: plane integrity. TraceMaker, Freerouting, tscircuit and KiCad Routing Tools pour

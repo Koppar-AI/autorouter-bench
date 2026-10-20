@@ -174,7 +174,7 @@ Boards fully routed (100% completion) with no DRC error added, out of eight:
 
 | Router | Boards |
 | --- | --- |
-| Koppar | 8 |
+| Koppar | 6 |
 | Koppar (filled vias) | 8 |
 | TraceMaker 0.9.0 | 5 |
 | Zap! 2026.10.14.78 | 3 |

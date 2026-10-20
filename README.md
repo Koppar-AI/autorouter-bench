@@ -185,12 +185,12 @@ Boards fully routed (100% completion) with no DRC error added, out of eight:
 ### The 25 public boards
 
 `results/2026-10-zap25/summary.md`: Koppar, one run per board (measured
-2026-10-18), beside the numbers Zap! published for itself, TraceMaker, Freerouting
+2026-10-20), beside the numbers Zap! published for itself, TraceMaker, Freerouting
 and tscircuit (which we did not re-run). Each board under its own rules.
 
 | Router | Fully connected | Clean (0 open, 0 errors) | Connected, no more errors than the human board |
 | --- | --- | --- | --- |
-| Koppar | 12 | 9 | 12 |
+| Koppar | 14 | 11 | 14 |
 | Zap! | 14 | 6 | 9 |
 | TraceMaker | 7 | 3 | 4 |
 | Freerouting | 11 | 2 | 2 |

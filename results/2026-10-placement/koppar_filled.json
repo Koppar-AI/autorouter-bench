@@ -6,15 +6,15 @@
       "board": "pic-programmer",
       "layers": 2,
       "ratsnest": 125,
-      "seconds": 5.5,
+      "seconds": 19.2,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 5.3,
-      "completeAtS": 5.3,
-      "completionPct": 100,
+      "finishedAtS": 10.6,
+      "completeAtS": 10.6,
+      "completionPct": 100.0,
       "unconnected": 0,
       "vias": 6,
-      "trackMm": 1523.371,
+      "trackMm": 1516.038,
       "drc": {
         "errors": 0,
         "errorsByType": {},
@@ -26,35 +26,35 @@
       "board": "rp2040-minimal",
       "layers": 2,
       "ratsnest": 150,
-      "seconds": 6.2,
+      "seconds": 14.1,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 6.1,
-      "completeAtS": 6.1,
-      "completionPct": 100,
+      "finishedAtS": 8.9,
+      "completeAtS": 8.9,
+      "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 83,
-      "trackMm": 1219.571,
+      "vias": 85,
+      "trackMm": 1178.347,
       "drc": {
         "errors": 0,
         "errorsByType": {},
         "unconnectedItems": 0
       },
-      "viasInPinPads": 36
+      "viasInPinPads": 35
     },
     {
       "board": "pico-vga",
       "layers": 4,
       "ratsnest": 180,
-      "seconds": 5.5,
+      "seconds": 14.6,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 5.3,
-      "completeAtS": 5.3,
-      "completionPct": 100,
+      "finishedAtS": 7.5,
+      "completeAtS": 7.5,
+      "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 92,
-      "trackMm": 1107.477,
+      "vias": 90,
+      "trackMm": 1122.56,
       "drc": {
         "errors": 5,
         "errorsByType": {
@@ -63,61 +63,61 @@
         },
         "unconnectedItems": 0
       },
-      "viasInPinPads": 75
+      "viasInPinPads": 80
     },
     {
       "board": "cm5io",
       "layers": 4,
       "ratsnest": 431,
-      "seconds": 752.2,
+      "seconds": 320.3,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 723.6,
-      "completeAtS": 723.6,
-      "completionPct": 100,
+      "finishedAtS": 302.6,
+      "completeAtS": 302.6,
+      "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 831,
-      "trackMm": 12307.536,
+      "vias": 804,
+      "trackMm": 11892.824,
       "drc": {
         "errors": 0,
         "errorsByType": {},
         "unconnectedItems": 0
       },
-      "viasInPinPads": 96
+      "viasInPinPads": 99
     },
     {
       "board": "rk3328-som-evb",
       "layers": 4,
       "ratsnest": 462,
-      "seconds": 21.7,
+      "seconds": 41.5,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 21.5,
-      "completeAtS": 21.5,
-      "completionPct": 100,
+      "finishedAtS": 29.8,
+      "completeAtS": 29.8,
+      "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 333,
-      "trackMm": 4864.384,
+      "vias": 360,
+      "trackMm": 4833.573,
       "drc": {
         "errors": 0,
         "errorsByType": {},
         "unconnectedItems": 0
       },
-      "viasInPinPads": 151
+      "viasInPinPads": 156
     },
     {
       "board": "scalenode-cm4",
       "layers": 4,
       "ratsnest": 446,
-      "seconds": 428.7,
+      "seconds": 421.7,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 404.4,
-      "completeAtS": 404.4,
-      "completionPct": 100,
+      "finishedAtS": 385.6,
+      "completeAtS": 385.6,
+      "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 459,
-      "trackMm": 5109.404,
+      "vias": 486,
+      "trackMm": 5018.465,
       "drc": {
         "errors": 24,
         "errorsByType": {
@@ -129,21 +129,21 @@
         },
         "unconnectedItems": 0
       },
-      "viasInPinPads": 126
+      "viasInPinPads": 145
     },
     {
       "board": "stmp157-som-evb",
       "layers": 4,
       "ratsnest": 905,
-      "seconds": 109.2,
+      "seconds": 180.4,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 108.6,
-      "completeAtS": 108.6,
-      "completionPct": 100,
+      "finishedAtS": 129.8,
+      "completeAtS": 129.8,
+      "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 1100,
-      "trackMm": 14450.516,
+      "vias": 1167,
+      "trackMm": 14476.393,
       "drc": {
         "errors": 14,
         "errorsByType": {
@@ -153,21 +153,21 @@
         },
         "unconnectedItems": 0
       },
-      "viasInPinPads": 341
+      "viasInPinPads": 337
     },
     {
       "board": "imx8mp-som-evb",
       "layers": 4,
       "ratsnest": 997,
-      "seconds": 222.5,
+      "seconds": 402.7,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 148.6,
-      "completeAtS": 148.6,
-      "completionPct": 100,
+      "finishedAtS": 267.3,
+      "completeAtS": 267.3,
+      "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 1116,
-      "trackMm": 14431.817,
+      "vias": 1180,
+      "trackMm": 14051.004,
       "drc": {
         "errors": 1,
         "errorsByType": {
@@ -175,7 +175,7 @@
         },
         "unconnectedItems": 0
       },
-      "viasInPinPads": 379
+      "viasInPinPads": 384
     }
   ]
 }

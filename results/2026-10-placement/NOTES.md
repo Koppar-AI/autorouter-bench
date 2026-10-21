@@ -12,9 +12,9 @@ modes, on 2026-10-21, from one build; the Zap! rows on 2026-10-19, from its 2026
   `koppar` keeps every via out of pin pads (the default; the board needs no special fab
   process), and `koppar_filled` lets vias sit in pin pads, for a board ordered with filled and
   capped vias (the extra-cost process the via-in-pad column refers to).
-- The Koppar rows were re-run on 2026-10-21 (one run per board, as before). In this run the
-  default mode left one connection open on imx8mp-som-evb, which was fully routed in the
-  2026-10-16 Koppar run (in this file's history).
+- The Koppar rows were re-run on 2026-10-21 (one run per board, as before), twice; these rows
+  are the second run. In the first (in this file's history) the default mode left one
+  connection open on imx8mp-som-evb.
 - Zap! (Mutual Solutions, hosted; service 2026.10.14.78, router r95cf716) was run with
   `harness/run.py zap`, one board at a time: `fab_floor=board`, `minutes=20` (its time is the
   job's run on the service, without queue, upload or download, so the whole cap is routing
@@ -34,7 +34,7 @@ modes, on 2026-10-21, from one build; the Zap! rows on 2026-10-19, from its 2026
 - A Koppar run that goes past the cap is scored on the last board it saved inside the cap; no
   run in these rows went past it. The service holds the route to the cap itself; the harness's
   cap + 600 s is how long it polls, not routing time. Koppar's `seconds` are measured by the
-  client and include upload and queue (longest row 1126 s); Zap!'s are its run on the service.
+  client and include upload and queue (longest row 1089 s); Zap!'s are its run on the service.
   A Zap! board returned after the cap would be scored and marked late; none was.
 - Vias in pin pads (SMD pads under 2 mm across, counted with `scripts/habits.py`): a via there
   needs a filled and capped via at the fab, and KiCad's DRC does not flag a via in its own

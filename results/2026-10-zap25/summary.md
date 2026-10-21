@@ -3,7 +3,7 @@
 Koppar on the 25 public boards Zap! (Mutual Solutions) published its comparison on
 ([zap.mutual.solutions/compare](https://zap.mutual.solutions/compare)), pinned to the same commits
 (`boards/manifest-zap25.json`, `BOARD_SET=zap25`), each board under its own project rules and, where the
-project ships one, its custom rules file. Koppar: one run per board, measured 2026-10-21, 1200 s cap, one
+project ships one, its custom rules file. Koppar: one run per board, measured 2026-10-21 (stm32h7-hdmi-sodimm on 2026-10-22, from a build whose only change routes its address bus at its rules' 0.18 mm outer width; no other board's routing changed), 1200 s cap, one
 workstation (24 cores, one GPU), KiCad 10.0.4 as referee (zones refilled, error severity). Per-board
 results in `koppar.json`.
 
@@ -46,7 +46,7 @@ design itself carries under the same rules (Zap!'s count).
 | [bitaxe-ultra](https://github.com/BastelPichi/bitaxe/tree/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a) | 4 | 333 | **0 / 3 · 247 s** | 0 / 3 · 420 s | 3 / 3 · 3601 s | 1 / 69 · 86 s | 0 / 444 · 256 s | 3 |
 | [cm4-lvds-adapter](https://github.com/antmicro/cm4-baseboard-lvds-adapter/tree/4af945ed558e58e4b8aea6fe909fc33d78b63f6f) | 6 | 377 | **0 / 0 · 75 s** | 0 / 13 · 478 s | 1 / 9 · 3602 s | 6 / 137 · 733 s | 1 / 389 · 439 s | 1 |
 | [tiliqua-motherboard](https://github.com/apfaudio/tiliqua-hardware/tree/4ee5878ae821a6b7096f6aed6795dc1349475cb5) | 6 | 531 | **30 / 24 · 1119 s** | 2 / 17 · 533 s | 42 / 16 · 3601 s | 0 / 242 · 1727 s | no board | 14 |
-| [stm32h7-hdmi-sodimm](https://github.com/antmicro/stm32h7-hdmi-board-sodimm/tree/27e3ac9968983f236155c288ded30beb1a2d24a1) | 6 | 567 | **3 / 72 · 1110 s** | 0 / 4 · 219 s | 36 / 203 · 3601 s | 0 / 240 · 3621 s | 71 / 1122 · 470 s | 4 |
+| [stm32h7-hdmi-sodimm](https://github.com/antmicro/stm32h7-hdmi-board-sodimm/tree/27e3ac9968983f236155c288ded30beb1a2d24a1) | 6 | 567 | **5 / 6 · 1117 s** | 0 / 4 · 219 s | 36 / 203 · 3601 s | 0 / 240 · 3621 s | 71 / 1122 · 470 s | 4 |
 | [discretesim-hwtest](https://github.com/cnlohr/discretesim/tree/f7a169ee07b18b6c857d23582474b8ba20185436) | 2 | 582 | **24 / 0 · 1188 s** | 0 / 0 · 40 s | 25 / 0 · 3007 s | 62 / 0 · 613 s | 2 / 566 · 139 s | 0 |
 | [kintex-pcie](https://github.com/piotr-binkowski/kintex-pcie-board/tree/056792c009a8920d4ef11e76ba3284ee58376078) | 8 | 706 | **17 / 22 · 1090 s** | 6 / 30 · 567 s | 57 / 55 · 3601 s | 0 / 263 · 3618 s | no board | 18 |
 | [buildbotics-controller](https://github.com/buildbotics/bbctrl-pcb-new/tree/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974) | 4 | 890 | **9 / 4 · 1186 s** | 7 / 4 · 515 s | 46 / 4 · 3601 s | 26 / 203 · 3618 s | 1 / 899 · 1383 s | 5 |

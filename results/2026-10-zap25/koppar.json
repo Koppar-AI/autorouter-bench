@@ -145,8 +145,8 @@
         "errorsByType": {
           "hole_to_hole": 4,
           "courtyards_overlap": 3,
-          "shorting_items": 5,
-          "clearance": 5
+          "clearance": 5,
+          "shorting_items": 5
         },
         "unconnectedItems": 26
       },
@@ -380,22 +380,22 @@
       "board": "stm32h7-hdmi-sodimm",
       "layers": 6,
       "ratsnest": 567,
-      "seconds": 1109.7,
+      "seconds": 1117.1,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 638.6,
+      "finishedAtS": 787,
       "completeAtS": null,
-      "completionPct": 99.47,
-      "unconnected": 3,
-      "vias": 724,
-      "trackMm": 4659.498,
+      "completionPct": 99.12,
+      "unconnected": 5,
+      "vias": 725,
+      "trackMm": 4238.252,
       "drc": {
-        "errors": 72,
+        "errors": 6,
         "errorsByType": {
-          "track_width": 67,
-          "copper_edge_clearance": 5
+          "track_width": 4,
+          "copper_edge_clearance": 2
         },
-        "unconnectedItems": 3
+        "unconnectedItems": 5
       },
       "viasInPinPads": 0
     },

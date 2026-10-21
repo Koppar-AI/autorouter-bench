@@ -190,7 +190,7 @@ and tscircuit (which we did not re-run). Each board under its own rules.
 
 | Router | Fully connected | Clean (0 open, 0 errors) | Connected, no more errors than the human board |
 | --- | --- | --- | --- |
-| Koppar | 14 | 10 | 14 |
+| Koppar | 14 | 11 | 14 |
 | Zap! | 14 | 6 | 9 |
 | TraceMaker | 7 | 3 | 4 |
 | Freerouting | 11 | 2 | 2 |

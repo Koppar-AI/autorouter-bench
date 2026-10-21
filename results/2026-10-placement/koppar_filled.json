@@ -6,7 +6,7 @@
       "board": "pic-programmer",
       "layers": 2,
       "ratsnest": 125,
-      "seconds": 19.4,
+      "seconds": 19.2,
       "timedOut": false,
       "version": "Koppar",
       "finishedAtS": 10.6,
@@ -26,35 +26,35 @@
       "board": "rp2040-minimal",
       "layers": 2,
       "ratsnest": 150,
-      "seconds": 14.2,
+      "seconds": 14.1,
       "timedOut": false,
       "version": "Koppar",
       "finishedAtS": 8.9,
       "completeAtS": 8.9,
       "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 75,
-      "trackMm": 1167.877,
+      "vias": 85,
+      "trackMm": 1178.347,
       "drc": {
         "errors": 0,
         "errorsByType": {},
         "unconnectedItems": 0
       },
-      "viasInPinPads": 34
+      "viasInPinPads": 35
     },
     {
       "board": "pico-vga",
       "layers": 4,
       "ratsnest": 180,
-      "seconds": 14.2,
+      "seconds": 14.6,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 7.4,
-      "completeAtS": 7.4,
+      "finishedAtS": 7.5,
+      "completeAtS": 7.5,
       "completionPct": 100.0,
       "unconnected": 0,
       "vias": 90,
-      "trackMm": 1106.988,
+      "trackMm": 1122.56,
       "drc": {
         "errors": 5,
         "errorsByType": {
@@ -63,61 +63,61 @@
         },
         "unconnectedItems": 0
       },
-      "viasInPinPads": 78
+      "viasInPinPads": 80
     },
     {
       "board": "cm5io",
       "layers": 4,
       "ratsnest": 431,
-      "seconds": 323.3,
+      "seconds": 320.3,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 306.3,
-      "completeAtS": 306.3,
+      "finishedAtS": 302.6,
+      "completeAtS": 302.6,
       "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 756,
-      "trackMm": 12033.687,
+      "vias": 804,
+      "trackMm": 11892.824,
       "drc": {
         "errors": 0,
         "errorsByType": {},
         "unconnectedItems": 0
       },
-      "viasInPinPads": 98
+      "viasInPinPads": 99
     },
     {
       "board": "rk3328-som-evb",
       "layers": 4,
       "ratsnest": 462,
-      "seconds": 41.7,
+      "seconds": 41.5,
       "timedOut": false,
       "version": "Koppar",
       "finishedAtS": 29.8,
       "completeAtS": 29.8,
       "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 361,
-      "trackMm": 4891.827,
+      "vias": 360,
+      "trackMm": 4833.573,
       "drc": {
         "errors": 0,
         "errorsByType": {},
         "unconnectedItems": 0
       },
-      "viasInPinPads": 155
+      "viasInPinPads": 156
     },
     {
       "board": "scalenode-cm4",
       "layers": 4,
       "ratsnest": 446,
-      "seconds": 555.2,
+      "seconds": 421.7,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 521.7,
-      "completeAtS": 521.7,
+      "finishedAtS": 385.6,
+      "completeAtS": 385.6,
       "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 466,
-      "trackMm": 4962.052,
+      "vias": 486,
+      "trackMm": 5018.465,
       "drc": {
         "errors": 24,
         "errorsByType": {
@@ -129,7 +129,7 @@
         },
         "unconnectedItems": 0
       },
-      "viasInPinPads": 123
+      "viasInPinPads": 145
     },
     {
       "board": "stmp157-som-evb",
@@ -138,12 +138,12 @@
       "seconds": 180.4,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 129.7,
-      "completeAtS": 129.7,
+      "finishedAtS": 129.8,
+      "completeAtS": 129.8,
       "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 1172,
-      "trackMm": 14481.636,
+      "vias": 1167,
+      "trackMm": 14476.393,
       "drc": {
         "errors": 14,
         "errorsByType": {
@@ -159,15 +159,15 @@
       "board": "imx8mp-som-evb",
       "layers": 4,
       "ratsnest": 997,
-      "seconds": 402.3,
+      "seconds": 402.7,
       "timedOut": false,
       "version": "Koppar",
-      "finishedAtS": 265.3,
-      "completeAtS": 265.3,
+      "finishedAtS": 267.3,
+      "completeAtS": 267.3,
       "completionPct": 100.0,
       "unconnected": 0,
-      "vias": 1183,
-      "trackMm": 14056.756,
+      "vias": 1180,
+      "trackMm": 14051.004,
       "drc": {
         "errors": 1,
         "errorsByType": {
@@ -175,7 +175,7 @@
         },
         "unconnectedItems": 0
       },
-      "viasInPinPads": 386
+      "viasInPinPads": 384
     }
   ]
 }

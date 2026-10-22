@@ -4,6 +4,10 @@ Koppar on the PCBWorld-Bench real-board test sets, one attempt per board, measur
 2026-10-18. Boards prepared with `pcbworld/prepare.py`, scored with `pcbworld/score.py`;
 per-board results in `koppar.json`.
 
+**Re-run, 2026-10-22.** The same 109 boards, one attempt each, on a later Koppar build: again
+99/99 on D3-A (5.0 s median, 32.8 s longest) and 10/10 on D3-B (7.6 s median, 10.3 s longest), 283 and
+151 vias. Per-board results in `koppar-2026-10-22.json`; the table below is the 2026-10-18 run.
+
 **Clean pass**: the routed board has every connection made and zero error-level
 violations in KiCad's design-rule check, under the board's own rules (the PCBWorld guide
 project). One missing connection scores zero. The score is the fraction of boards that pass.
